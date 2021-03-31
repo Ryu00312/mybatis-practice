@@ -1,5 +1,5 @@
 # mybatis-practice 
-## g—p‹Zp
+## ä½¿ç”¨æŠ€è¡“
 
 * Java 11
 * SpringBoot 2.3.9
