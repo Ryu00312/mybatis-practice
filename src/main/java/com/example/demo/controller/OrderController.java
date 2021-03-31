@@ -28,7 +28,7 @@ public class OrderController {
 	@Autowired
 	OrderService orderService;
 
-	@RequestMapping(value = { "/", "/{name}" }, method = { GET, POST })
+	@RequestMapping(value = { "/{name}" }, method = { GET, POST })
 	public String getOrderList(@ModelAttribute ParentForm parentForm,
 			@RequestBody @PathVariable(name = "name", required = false) String name,
 			Model model) {
