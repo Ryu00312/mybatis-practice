@@ -14,5 +14,4 @@ public class OrderDetailForm {
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date arrivalDate;
 	private Integer orderNum;
-	private String master;
 }
